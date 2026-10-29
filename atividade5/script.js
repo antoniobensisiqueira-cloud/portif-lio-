@@ -7,8 +7,10 @@ function maior(){
 
     if(numero1 > numero2){
         alert("O numero " + " é maior que o numero " + numero2 + ".");
-    }else{
+    }else if(numero1 < numero2){
        alert("O numero "  +  numero2 +  " e maior que o numero " + numero1 +".");
     }
-
+    else{
+       alert("Os numeros são iguais");
+    }
 }
